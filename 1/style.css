@@ -1,0 +1,20 @@
+.chess {
+    margin: 200px auto;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.black {
+    background-color: black;
+    border: 1px solid black;
+    color: #fff;
+}
+
+.white {
+    background-color: burlywood;
+    border: 1px solid black;
+}
