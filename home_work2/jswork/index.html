@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form name="ajax" action="#">
+    <label>
+        Логин
+        <br>
+        <input type="text" name="username" placeholder="не менее 6 символов">
+    </label>
+    <br><br>
+    <label>
+        Пароль
+        <br>
+        <input type="password" name="password" placeholder="не менее 6 символов">
+    </label>
+    <br><br>
+    <label>
+        email
+        <br>
+        <input type="email" name="email">
+    </label>
+    <br><br>
+    <label>муж<input type="radio" name="gender" value="m" checked="checked"></label>
+    <label>жен<input type="radio" name="gender" value="w" ></label>
+    <br><br>
+    <label>
+        Номер Вашей карты
+        <br>
+        <input type="text" name="credit_card">
+    </label>
+    <br><br>
+    <label>
+        Дата рождения
+        <br>
+        <input type="date" name="birth">
+    </label>
+    <br><br><br>
+    <label>
+        Отзыв
+        <br>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+    </label>
+    <br><br>
+    <input type="button" value="отправить" onclick="compile()">
+</form>
+<script src="ajax.js" defer></script>
+</body>
+</html>
